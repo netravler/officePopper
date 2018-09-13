@@ -1,0 +1,29 @@
+C:\Documents and Settings\pheintz\My Documents\Visual Studio 2008\Projects\office_popper\office_popper\obj\Debug\Interop.PJCALLib.dll
+C:\Documents and Settings\pheintz\My Documents\Visual Studio 2008\Projects\office_popper\office_popper\obj\Debug\office_popper.csproj.ResolveComReference.cache
+C:\Documents and Settings\pheintz\My Documents\Visual Studio 2008\Projects\office_popper\office_popper\bin\Debug\office_popper.exe
+C:\Documents and Settings\pheintz\My Documents\Visual Studio 2008\Projects\office_popper\office_popper\bin\Debug\office_popper.pdb
+C:\Documents and Settings\pheintz\My Documents\Visual Studio 2008\Projects\office_popper\office_popper\bin\Debug\Interop.PJCALLib.dll
+C:\Documents and Settings\pheintz\My Documents\Visual Studio 2008\Projects\office_popper\office_popper\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\pheintz\My Documents\Visual Studio 2008\Projects\office_popper\office_popper\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Documents and Settings\pheintz\My Documents\Visual Studio 2008\Projects\office_popper\office_popper\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Documents and Settings\pheintz\My Documents\Visual Studio 2008\Projects\office_popper\office_popper\obj\Debug\office_popper.csproj.GenerateResource.Cache
+C:\Documents and Settings\pheintz\My Documents\Visual Studio 2008\Projects\office_popper\office_popper\obj\Debug\office_popper.exe
+C:\Documents and Settings\pheintz\My Documents\Visual Studio 2008\Projects\office_popper\office_popper\obj\Debug\office_popper.pdb
+C:\Documents and Settings\pheintz\My Documents\Visual Studio 2008\Projects\office_popper\office_popper\bin\Debug\office_popper.exe.manifest
+C:\Documents and Settings\pheintz\My Documents\Visual Studio 2008\Projects\office_popper\office_popper\bin\Debug\office_popper.application
+C:\Documents and Settings\pheintz\My Documents\Visual Studio 2008\Projects\office_popper\office_popper\obj\Debug\office_popper.exe.manifest
+C:\Documents and Settings\pheintz\My Documents\Visual Studio 2008\Projects\office_popper\office_popper\obj\Debug\office_popper.application
+C:\Users\pheintz\Visual Studio 2008\Projects\office_popper\office_popper\obj\Debug\office_popper.csproj.ResolveComReference.cache
+C:\Users\pheintz\Visual Studio 2008\Projects\office_popper\office_popper\obj\Debug\office_popper.exe
+C:\Users\pheintz\Visual Studio 2008\Projects\office_popper\office_popper\obj\Debug\office_popper.pdb
+C:\Users\pheintz\Visual Studio 2008\Projects\office_popper\office_popper\bin\Debug\office_popper.exe.manifest
+C:\Users\pheintz\Visual Studio 2008\Projects\office_popper\office_popper\bin\Debug\office_popper.application
+C:\Users\pheintz\Visual Studio 2008\Projects\office_popper\office_popper\bin\Debug\office_popper.exe
+C:\Users\pheintz\Visual Studio 2008\Projects\office_popper\office_popper\bin\Debug\office_popper.pdb
+C:\Users\pheintz\Visual Studio 2008\Projects\office_popper\office_popper\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\pheintz\Visual Studio 2008\Projects\office_popper\office_popper\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\pheintz\Visual Studio 2008\Projects\office_popper\office_popper\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\pheintz\Visual Studio 2008\Projects\office_popper\office_popper\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\pheintz\Visual Studio 2008\Projects\office_popper\office_popper\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\pheintz\Visual Studio 2008\Projects\office_popper\office_popper\obj\Debug\office_popper.exe.manifest
+C:\Users\pheintz\Visual Studio 2008\Projects\office_popper\office_popper\obj\Debug\office_popper.application

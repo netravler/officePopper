@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="office_popper.exe" version="1.0.0.0" publicKeyToken="02c58e7f06811b85" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="office_popper" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="office_popper.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Office.Interop.Excel" version="12.0.0.0" publicKeyToken="71E9BCE111E9429C" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Office.Interop.OutlookViewCtl" version="12.0.0.0" publicKeyToken="71E9BCE111E9429C" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Office.Interop.PowerPoint" version="12.0.0.0" publicKeyToken="71E9BCE111E9429C" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Office.Interop.Word" version="12.0.0.0" publicKeyToken="71E9BCE111E9429C" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Vbe.Interop" version="12.0.0.0" publicKeyToken="71E9BCE111E9429C" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="office" version="12.0.0.0" publicKeyToken="71E9BCE111E9429C" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.PJCALLib.dll" size="8704">
+      <assemblyIdentity name="Interop.PJCALLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>bAat8WGRroynP3xV4AI/PufTjz8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="office_popper.exe" size="8704">
+      <assemblyIdentity name="office_popper" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>n40siuzK9OqwxdOZt9mZlW0n9O0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=MONETT\PHeintz" issuerKeyHash="eea8a26600db27dd825625735fadccbc1158f76d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>BfkzVA+sqaOJVs1z5lC/pwarNss=</DigestValue></Reference></SignedInfo><SignatureValue>vY7RmPrhvdrdortRYLZa7qltOaviXWp6mpQ//Vcxv41urgCJK7wz0g2gGMbNAbTWGHakIYWppSOCd5WwvDTCJ8amac7VTRqaX/t4LZUw277N9NOOhrLfDIHt9NDVRc6XaAOBk/vKGi3cKiJy2L8yEmgmjwk6O6rwW8JanpmTAhU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>2hUbV8HLW7gjLQmZuZT2i7w2AwLIoLHl7ECuMKdTccrIIIudS2wYltgxO2v1WMFzvKcJhUvb8ZBoEBZLimjhrtam4LEp/LEUiZc92MzHaX2y1SM5bD7xRvi2cT7S9Ak+KzHc673+A7ruDmDAf2WI2tu8R9RK6V3QruPE+Pw9miM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="cb36ab06a7bf50e673cd5689a3a9ac0f5433f905" Description="" Url=""><as:assemblyIdentity name="office_popper.exe" version="1.0.0.0" publicKeyToken="02c58e7f06811b85" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MONETT\PHeintz</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>HKfrMQOozMeHdLxUBV3WplMzczs=</DigestValue></Reference></SignedInfo><SignatureValue>swlGtxoIIJsBXzBsJTEWx1tigTT8JGNCYweRQLXqPwkZqfd4YJmz1v9Nn+K0YG/aixaHLF0W3eLX+gFXekboHSZ/1UhCa+rdNQAOnZaWmqtojyC5m/NeQ1kJB5P9tZnXIo/54XAQNlMmWO5cQk3srAw758rRPfTOIPn8GgcDEVU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2hUbV8HLW7gjLQmZuZT2i7w2AwLIoLHl7ECuMKdTccrIIIudS2wYltgxO2v1WMFzvKcJhUvb8ZBoEBZLimjhrtam4LEp/LEUiZc92MzHaX2y1SM5bD7xRvi2cT7S9Ak+KzHc673+A7ruDmDAf2WI2tu8R9RK6V3QruPE+Pw9miM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATagAwIBAgIQmA+uiDUJVIJNFpunxlWL0jAJBgUrDgMCHQUAMCcxJTAjBgNVBAMeHABNAE8ATgBFAFQAVABcAFAASABlAGkAbgB0AHowHhcNMDgxMjA0MjEyNTQ0WhcNMDkxMjA1MDMyNTQ0WjAnMSUwIwYDVQQDHhwATQBPAE4ARQBUAFQAXABQAEgAZQBpAG4AdAB6MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDaFRtXwctbuCMtCZm5lPaLvDYDAsigseXsQK4wp1Nxysggi51LbBiW2DE7a/VYwXO8pwmFS9vxkGgQFkuKaOGu1qbgsSn8sRSJlz3YzMdpfbLVIzlsPvFG+LZxPtL0CT4rMdzrvf4Duu4OYMB/ZYja27xH1ErpXdCu48T4/D2aIwIDAQABMAkGBSsOAwIdBQADgYEA1EQqOkpJPIjEcSD6wTeIVPUy2VIwEtDqKOp185qcOvqR9M+lpcqJDhcT9kiQhZE+BKa2jpXZ7xvH0xgmwIoDefm3ZPZgHbqn0kZulks1L7GBY/sK5fpH9QE5BJBVAv8ehWQBVm5lOm9b6WwXX7b5q41v79r0mHGiMB7Q6DqAAN4=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
